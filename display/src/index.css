@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.form-input {
+  color: white;
+  background-color: #333333;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #666666;
+}
+
+.form-input-label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.form-footer-label {
+  color: #99a1af;
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-extralight);
+}
+
+.form-radio-label {
+  color: white;
+  font-size: 1rem;
+  background-color: #333333;
+  padding: 8px;
+  border-radius: 4px;
+  width: stretch;
+}
+
+.form-footer-label::highlight {
+  color: #ff0000;
+}
+
+input[type="radio"] {
+  accent-color: #666666;
+}
+
